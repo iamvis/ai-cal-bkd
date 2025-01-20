@@ -20,7 +20,7 @@ load_dotenv()
 # Use Render-provided PORT or default to 8900 for local development
 SERVER_URL = '0.0.0.0'  # Bind to all available network interfaces for deployment
 PORT = os.getenv('PORT', '8900')  # Default to 8900 for local testing
-
+ENV='dev'
 # Load API key securely from environment
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 
